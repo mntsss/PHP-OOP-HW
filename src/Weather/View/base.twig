@@ -1,0 +1,71 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Page title set in pageTitle directive -->
+    <title page-title="">Learning OOP</title>
+
+    <!-- Bootstrap -->
+    <link href="{{ resources_dir }}/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    {#<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">#}
+
+    <!-- Main Inspinia CSS files -->
+    <link href="{{ resources_dir }}/css/animate.css" rel="stylesheet">
+    <link id="loadBefore" href="{{ resources_dir }}/css/style.css" rel="stylesheet">
+</head>
+<body class="fixed-sidebar md-skin pace-done mini-navbar" landing-scrollspy="" id="page-top">
+{#<div>#}
+<div id="wrapper">
+    <div id="page-wrapper" class="gray-bg dashboards.dashboard_1" style="min-height: 185px;">
+        <div>
+            <div class="row border-bottom">
+                <nav class="navbar navbar-static-top navy-bg">
+                    <div class="navbar-header navbar-minimalize minimalize-styl-2">
+                        <i class="fa fa-2x fa-keyboard"></i> <strong>OOP</strong>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div>
+            {% block content %}
+            {% endblock %}
+        </div>
+        <div>
+            <div class="footer">
+                <div class="pull-right">
+                    Only example.
+                </div>
+                <div>
+                    <strong>Copyright</strong> Darius Kasiulevičius © 2018
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+{#</div>#}
+
+<!-- jQuery and Bootstrap -->
+<script src="{{ resources_dir }}/js/jquery-3.1.1.min.js"></script>
+<script src="{{ resources_dir }}/js/jquery-ui.min.js"></script>
+<script src="{{ resources_dir }}/js/bootstrap.min.js"></script>
+
+<!-- MetsiMenu -->
+<script src="{{ resources_dir }}/js/jquery.metisMenu.js"></script>
+
+<!-- SlimScroll -->
+<script src="{{ resources_dir }}/js/jquery.slimscroll.min.js"></script>
+
+<!-- Peace JS -->
+<script src="{{ resources_dir }}/js/pace.min.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="{{ resources_dir }}/js/inspinia.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+[
+  {
+    "date": "10 Nov 2018",
+    "day": "Sat",
+    "high": "37",
+    "low": "27",
+    "text": "Cloudy"
+  },
+  {
+    "date": "06 Nov 2018",
+    "day": "Tue",
+    "high": "39",
+    "low": "38",
+    "text": "Scattered Showers"
+  },
+  {
+    "date": "07 Nov 2018",
+    "day": "Wed",
+    "high": "39",
+    "low": "30",
+    "text": "Scattered Showers"
+  },
+  {
+    "date": "09 Nov 2018",
+    "day": "Fri",
+    "high": "31",
+    "low": "26",
+    "text": "Breezy"
+  },
+  {
+    "date": "11 Nov 2018",
+    "day": "Sun",
+    "high": "36",
+    "low": "27",
+    "text": "Partly Cloudy"
+  },
+  {
+    "date": "12 Nov 2018",
+    "day": "Mon",
+    "high": "26",
+    "low": "22",
+    "text": "Breezy"
+  },
+  {
+    "date": "13 Nov 2018",
+    "day": "Tue",
+    "high": "22",
+    "low": "16",
+    "text": "Mostly Cloudy"
+  },
+  {
+    "date": "14 Nov 2018",
+    "day": "Wed",
+    "high": "25",
+    "low": "18",
+    "text": "Mostly Cloudy"
+  },
+  {
+    "date": "08 Nov 2018",
+    "day": "Thu",
+    "high": "33",
+    "low": "29",
+    "text": "Mostly Cloudy"
+  },
+  {
+    "date": "15 Nov 2018",
+    "day": "Thu",
+    "high": "37",
+    "low": "24",
+    "text": "Cloudy"
+  }
+]
